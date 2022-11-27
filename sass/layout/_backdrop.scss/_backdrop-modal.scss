@@ -1,0 +1,37 @@
+.modal {
+  position: absolute;
+  padding: 40px;
+  display: flex;
+  width: 528px;
+  height: 581px;
+  left: 50%;
+  top: 50%;
+  background: var(--common-lite-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms var(--common-cubic-bezier);
+  pointer-events: none;
+  cursor: pointer;
+}
+.modal-close__btn {
+  position: absolute;
+  padding: 8px;
+  @include al(flex, center, center);
+  top: 8px;
+  right: 8px;
+  background: var(--common-lite-color);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  pointer-events: auto;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+.modal-close__icon {
+  transform: fill 250ms var(--common-cubic-bezier);
+}

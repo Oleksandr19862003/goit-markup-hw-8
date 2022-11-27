@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: var(--common-lite-color);
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.display-flex {
+  display: flex;
+}
+.link-effects {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  display: block;
+}

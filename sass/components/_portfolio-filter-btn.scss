@@ -1,0 +1,36 @@
+.portfolio-filters {
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 8px;
+  }
+  &__btn {
+    padding: 6px 22px;
+    font-weight: var(--normal-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    border-radius: 4px;
+    color: var(--title-text-color);
+    background: var(--common-background);
+    border: none;
+    cursor: pointer;
+    transition: background 250ms var(--common-cubic-bezier),
+      box-shadow 250ms var(--common-cubic-bezier),
+      color 250ms var(--common-cubic-bezier);
+
+    &:hover,
+    &:focus,
+    &:active {
+      border: none;
+      background: var(--accent-color);
+      color: var(--common-lite-color);
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+      outline: var(--outline);
+    }
+  }
+}

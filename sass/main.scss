@@ -1,0 +1,32 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixins";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/logo";
+@import "./components/logo-web";
+@import "./components/contacts";
+@import "./components/order-service-btn";
+@import "./components/social-links";
+@import "./components/title";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/what-we-do";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/footer-join";
+@import "./layout/footer-form";
+
+// BACKDROP
+@import "./layout/_backdrop.scss/backdrop";
+@import "./layout/_backdrop.scss/backdrop-modal";
+@import "./layout/_backdrop.scss/backdrop-form";

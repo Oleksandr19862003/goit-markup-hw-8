@@ -1,0 +1,14 @@
+.container {
+  width: 1200px;
+  padding: var(--padding-standard);
+  margin: 0 auto;
+  align-items: center;
+
+  .header & {
+    display: flex;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+  }
+  .footer & {
+    align-items: baseline;
+  }
+}

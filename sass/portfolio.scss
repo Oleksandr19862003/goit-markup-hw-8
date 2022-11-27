@@ -1,0 +1,25 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/logo";
+@import "./components/logo-web";
+@import "./components/contacts";
+@import "./components/social-links";
+@import "./components/title";
+@import "./components/portfolio-filter-btn";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/footer-join";
+@import "./layout/footer-form";
+
+// PORTFOLIO
+@import "./layout/portfolio";
+@import "./layout/portfolio-projects";

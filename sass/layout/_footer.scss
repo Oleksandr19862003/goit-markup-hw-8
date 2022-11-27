@@ -1,0 +1,36 @@
+.footer {
+  padding: 60px 0px;
+  display: flex;
+  background: var(--dark-background-color);
+
+  &__logo {
+    margin-bottom: 20px;
+    color: var(--common-lite-color);
+  }
+}
+.footer-address {
+  width: 231px;
+  line-height: 1.714;
+  font-size: var(--font-size);
+  font-style: inherit;
+  color: var(--common-lite-color);
+
+  &__mail,
+  &__city {
+    margin-bottom: 10px;
+  }
+  &__tel--link,
+  &__mail--link {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: var(--letter-spacing);
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--common-cubic-bezier);
+  }
+  &__tel--link:hover,
+  &__tel--link:focus,
+  &__mail--link:hover,
+  &__mail--link:focus {
+    color: var(--accent-color);
+  }
+}

@@ -1,0 +1,14 @@
+@mixin al($d, $jc, $ai) {
+  display: $d;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin font($fs, $lh, $ls) {
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+@mixin dimen($w, $h) {
+  width: $w;
+  height: $h;
+}

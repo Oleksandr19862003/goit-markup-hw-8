@@ -1,0 +1,31 @@
+.clients {
+  padding: var(--sections-padding);
+
+  &__item {
+    width: 170px;
+    height: 90px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__icon {
+    display: block;
+    align-content: center;
+  }
+}
+.clients__link {
+  width: 100%;
+  height: 100%;
+  @include al(flex, center, center);
+  fill: var(--common-link);
+  border: 1px solid var(--common-link);
+  border-radius: 4px;
+  transition: fill 250ms var(--common-cubic-bezier),
+    border 250ms var(--common-cubic-bezier);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+}

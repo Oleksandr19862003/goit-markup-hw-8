@@ -1,0 +1,27 @@
+.social-list {
+  margin-top: 10px;
+  display: flex;
+}
+.social-list__item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+.social-list__link {
+  width: 100%;
+  height: 100%;
+  @include al(flex, center, center);
+  fill: var(--common-link);
+  border-radius: 50%;
+  transition: background-color 250ms var(--common-cubic-bezier),
+    fill 250ms var(--common-cubic-bezier);
+
+  &:hover,
+  &:focus {
+    fill: var(--common-lite-color);
+    background-color: var(--accent-color);
+  }
+}
